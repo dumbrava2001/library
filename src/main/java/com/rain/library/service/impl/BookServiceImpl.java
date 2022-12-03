@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
 import java.time.Year;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
@@ -36,7 +37,7 @@ public class BookServiceImpl implements BookService {
         List<Book> allBooks = bookRepository.findAll();
         return allBooks.stream()
                 .map(this::createResponseDTO)
-                .toList();
+                .collect(Collectors.toList());
     }
 
     @Override
