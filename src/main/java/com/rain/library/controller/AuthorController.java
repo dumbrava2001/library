@@ -1,7 +1,6 @@
 package com.rain.library.controller;
 
 import com.rain.library.model.request.AuthorRequestDTO;
-import com.rain.library.model.entity.Author;
 import com.rain.library.model.response.AuthorResponseDTO;
 import com.rain.library.service.AuthorService;
 import lombok.AllArgsConstructor;
