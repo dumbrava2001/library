@@ -1,5 +1,5 @@
 CREATE TABLE types
 (
-    type_id INT PRIMARY KEY AUTO_INCREMENT,
+    type_id SERIAL PRIMARY KEY ,
     type    VARCHAR(50) NOT NULL
 );

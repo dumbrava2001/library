@@ -1,4 +1,0 @@
-CREATE SCHEMA IF NOT EXISTS 'db_library' DEFAULT CHARACTER SET utf8;
-
-USE db_library
-CREATE TABLE user()
